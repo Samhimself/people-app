@@ -6,6 +6,7 @@ function App() {
   return (
     <div className="container">
       <section className="wrapper">
+        <h1>People App</h1>
         <Main/>
       </section>
     </div>
