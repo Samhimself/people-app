@@ -25,7 +25,7 @@ class Main extends Component {
         return (
             <div>
                 <Form/>
-                <PeopleList/>
+                <PeopleList/> 
             </div>
         );
 

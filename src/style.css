@@ -51,17 +51,20 @@ h1 {
 
 input[type=input] {
     width: 200px;
-    /* height: 25px; */
-    margin: 5px 0px;
-    border-bottom: 1px solid white;
     box-sizing: border-box;
+    
+    padding: 5px 5px;
+
     background-color: #282b2f;
     color: white;
     outline: none;
+    border-style: none;
+    border-bottom: 1px solid white;
+    border-left: 3px solid rgb(177, 224, 255); ;
 }
 
 label {
     width: 200px;
-    padding: 5px 0px;
+    padding: 7px 0px;
 
 }
