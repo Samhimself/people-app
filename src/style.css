@@ -15,6 +15,7 @@
     height: 100vh;
     font-family: "open sans";
     color: #fff;
+    overflow: scroll;
 }
 
 .wrapper {

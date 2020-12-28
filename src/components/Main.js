@@ -23,7 +23,7 @@ class Main extends Component {
     }
 
 
-    updateList(event, firstName, lastName, skill, hobby) {
+    updateList(event, firstName = "Sam", lastName = "White", skill = "React", hobby ="soccer") {
 
         const newPerson = {
             firstName: firstName,
