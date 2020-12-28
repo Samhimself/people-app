@@ -68,3 +68,9 @@ label {
     padding: 7px 0px;
 
 }
+
+.person-box {
+    display: flex;
+    justify-content: space-around;
+
+}
