@@ -10,6 +10,11 @@
     font-weight: 400;
 }
 
+.div-scroll {
+    height: 585px;
+    overflow: scroll;
+}
+
 .container {
     background-color: #292a30;
     height: 100vh;

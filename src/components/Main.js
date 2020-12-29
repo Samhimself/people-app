@@ -68,7 +68,9 @@ class Main extends Component {
                     skillRef={this.skillRef} 
                     hobbyRef={this.hobbyRef} 
                 />
-                {this.state.persons.map(person => <Person personInfo={person}/>)}
+                <div className="div-scroll">
+                    {this.state.persons.map(person => <Person personInfo={person}/>)}
+                </div>
             </div>
         );
 
